@@ -43,3 +43,4 @@ def turn(board)
  end
  counter 
 end
+end
