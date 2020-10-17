@@ -39,5 +39,5 @@ def turn(board)
   user_input = gets.strip.to_i
   input_to_index(user_input)
   counter = 0
-  
+  counter += if 
 end
