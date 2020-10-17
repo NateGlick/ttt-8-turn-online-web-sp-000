@@ -40,6 +40,6 @@ def turn(board)
   input_to_index(user_input)
   counter = 0
   counter += 1 if i == "X" || i == "O"
-end
-counter 
+ end
+ counter 
 end
