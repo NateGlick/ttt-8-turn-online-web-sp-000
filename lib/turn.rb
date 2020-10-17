@@ -39,5 +39,5 @@ def turn(board)
   user_input = geits.strip.to_i
   input_to_index(user_input)
   counter = 0
-  counter += if i == "X" || i == "O"
+  counter += 1 if i == "X" || i == "O"
 end
