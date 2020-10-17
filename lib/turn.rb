@@ -38,9 +38,5 @@ def turn(board)
   puts "Please enter 1-9:"
   user_input = geits.strip.to_i
   input_to_index(user_input)
-  counter = 0
-  counter += 1 if i == "X" || i == "O"
- end
- counter 
-end
+ if 
 end
