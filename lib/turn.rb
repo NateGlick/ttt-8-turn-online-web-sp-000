@@ -38,7 +38,7 @@ def turn(board)
   puts "Please enter 1-9:"
   user_input = gets.strip.to_i
   input_to_index(user_input)
-  loop do valid_move?(board, index)
+  if valid_move?(board, index)
   index = 0
   break
   turn(board)
