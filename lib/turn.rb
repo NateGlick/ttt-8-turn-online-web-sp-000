@@ -39,7 +39,5 @@ def turn(board)
   user_input = geits.strip.to_i
   input_to_index(user_input)
   
-  end
-  turn
 end
 
